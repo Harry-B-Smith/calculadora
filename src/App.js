@@ -1,12 +1,20 @@
 import './App.css';
-import Harry from './harry';
-
+import CalculatorButton from './button';
+import Screen from './screen';
 
 function App() {
   return (
     <div className="App">
-      Hello
-      <Harry />
+
+    <Screen/>
+    <CalculatorButton/>
+    <CalculatorButton/>
+    <CalculatorButton/>
+    <CalculatorButton/>
+    <CalculatorButton/>
+    <CalculatorButton/>
+
+
     </div>
 
 
