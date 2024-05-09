@@ -1,9 +1,10 @@
-function CalculatorButton() {
-    return (
+function CalculatorButton({ value, buttonPress }) {
+    
+  return (
       <div className="CalculatorButton">
-        Button
+        <button onClick={buttonPress}>{value}</button>
       </div>
     );
   }
-  
-  export default CalculatorButton;
+
+export default CalculatorButton;

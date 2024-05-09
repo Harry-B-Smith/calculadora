@@ -1,7 +1,7 @@
-function Screen() {
+function Screen({children}) {
     return (
       <div className="Screen">
-        Screen
+        {children}
       </div>
     );
   }
